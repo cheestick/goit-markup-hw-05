@@ -353,8 +353,32 @@ body {
   font-size: 0;
 }
 
+/* check for identical */
+.directions-list > .item {
+  overflow: hidden;
+  position: relative;
+}
 .directions-list > .item:not(:last-child) {
   margin-right: 30px;
+}
+/* optimize fonts */
+h3.overlay {
+  width: 100%;
+  margin: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
 }
 
 /* our team */
