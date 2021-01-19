@@ -674,11 +674,11 @@ h3.overlay {
 div.overlay {
   position: relative;
   overflow: hidden;
-  display: block;
 }
+
+/* check font optimization */
 div.overlay::before {
   content: 'Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.';
-  display: block;
   width: 100%;
   height: 100%;
   padding-top: 63px;
