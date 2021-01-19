@@ -468,6 +468,7 @@ h3.overlay {
   height: 90px;
   border: 1px solid var(--svg-inactive-fill);
   border-radius: 4px;
+  transition: border-color var(--transition-time) var(--transition-curve);
 }
 
 .client-icon:hover,
@@ -486,6 +487,7 @@ h3.overlay {
   align-self: center;
   margin-right: auto;
   margin-left: auto;
+  transition: fill var(--transition-time) var(--transition-curve);
 }
 
 /* footer address */
