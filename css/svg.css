@@ -51,6 +51,7 @@
 
 .card-description .icon-social-network {
   fill: var(--teammate-social-link-logo-fill);
+  transition: fill var(--transition-time) var(--transition-curve);
 }
 
 .card-description .social-link:hover > .icon-social-network,

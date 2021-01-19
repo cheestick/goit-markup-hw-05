@@ -200,7 +200,9 @@ body {
   color: var(--interactive-element-color);
 }
 
-.current-page > .underline {
+.current-page::after {
+  content: '';
+  display: block;
   width: 100%;
   height: 4px;
   border-radius: 2px;
@@ -251,6 +253,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--lightondark-text-color);
   background-color: var(--button-color);
+  transition: background-color var(--transition-time) var(--transition-curve);
 }
 
 .hero .button-order:hover,
