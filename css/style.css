@@ -557,6 +557,7 @@ h3.overlay {
   border-radius: 50%;
   background-color: var(--footer-social-link-inactive-bg);
   color: var(--footer-social-link-fill);
+  transition: background-color var(--transition-time) var(--transition-curve);
 }
 
 .social-link:hover,
