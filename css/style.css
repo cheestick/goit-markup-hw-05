@@ -586,6 +586,11 @@ h3.overlay {
   background: rgba(0, 0, 0, 0.2);
 }
 
+.modal-backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal-window {
   position: absolute;
   left: 50%;
@@ -599,6 +604,17 @@ h3.overlay {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+
+.close-modal {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #454545;
 }
 
 /* PORTFOLIO page styles */
