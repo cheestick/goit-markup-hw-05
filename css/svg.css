@@ -58,3 +58,10 @@
 .card-description .social-link:focus > .icon-social-network {
   fill: var(--teammate-social-link-logo-active);
 }
+
+.icon-close-x {
+  display: block;
+  margin: auto;
+  width: 11px;
+  height: 11px;
+}
