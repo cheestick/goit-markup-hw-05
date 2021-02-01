@@ -486,7 +486,7 @@ h3.overlay {
 }
 
 .client-logo {
-  fill: currentColor;
+  fill: var(--teammate-social-link-logo-fill);
   align-self: center;
   margin-right: auto;
   margin-left: auto;
